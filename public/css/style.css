@@ -1,0 +1,44 @@
+body, html {
+    /*background: url(../images/2.jpg) no-repeat center center fixed;*/
+    background-position: center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+  }
+
+input[type="text"]::placeholder {
+
+    /* Firefox, Chrome, Opera */
+    text-align: right;
+}
+#identificacion{
+    direction: rtl;
+}
+
+#exampleFormControlSelect1{
+    text-align: right;
+}
+.top-section {
+    background-color: #022a39;
+    padding: 20px 0;
+    color:#fff;
+}
+.col-md-4{
+    background-color:#fff;
+    right: 2%;
+    padding: 3%;
+}
+.col-md-8{
+    background-color:#fff;
+    padding: 3%;
+}
+#columna1{
+
+    opacity:0.8;
+    filter:alpha(opacity=60); /* IE < 9.0*/
+
+}
